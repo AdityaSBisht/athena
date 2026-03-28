@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  background: #0c0c0c;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 18% 16%, rgba(212, 175, 55, 0.11), transparent 20%),
+    radial-gradient(circle at 82% 18%, rgba(254, 252, 232, 0.04), transparent 16%),
+    radial-gradient(circle at 50% 72%, rgba(212, 175, 55, 0.05), transparent 24%),
+    linear-gradient(180deg, #0c0c0c 0%, #101010 45%, #0c0c0c 100%);
+  background-color: #0c0c0c;
+  color: #fefce8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(212, 175, 55, 0.35);
+  color: #0c0c0c;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.font-yeseva {
+  font-family: "Yeseva One", Georgia, serif;
+}
+
+.glass-panel {
+  background: linear-gradient(180deg, rgba(22, 22, 22, 0.96), rgba(12, 12, 12, 0.92));
+  border: 1px solid rgba(42, 37, 16, 0.95);
+  box-shadow: 0 24px 80px rgba(212, 175, 55, 0.08);
+}
+
+.text-white {
+  color: #fefce8 !important;
+}
+
+.text-slate-200,
+.text-slate-300,
+.text-slate-400,
+.text-slate-500,
+.text-slate-600,
+.text-slate-700,
+.text-slate-800 {
+  color: #a3a3a3 !important;
+}
+
+.bg-white\/5,
+.bg-white\/10 {
+  background-color: #161616 !important;
+}
+
+.border-white\/10,
+.border-white\/15,
+.border-white\/20 {
+  border-color: #1f1f1f !important;
+}
+
+.bg-signal-good\/10,
+.bg-signal-good\/15,
+.bg-signal-good\/20,
+.bg-signal-good\/25 {
+  background-color: #1f1a00 !important;
+}
+
+.border-signal-good\/20,
+.border-signal-good\/25,
+.border-signal-good\/30,
+.border-signal-good\/40,
+.border-signal-good\/50,
+.border-signal-cyan\/30,
+.border-signal-cyan\/60,
+.border-signal-accent\/20 {
+  border-color: #2a2510 !important;
+}
+
+.bg-signal-cyan\/10,
+.bg-signal-cyan\/20,
+.bg-signal-bad\/10,
+.bg-signal-bad\/15,
+.bg-signal-bad\/20 {
+  background-color: #1a1a1a !important;
+}
+
+.text-signal-accent,
+.text-signal-good,
+.text-signal-warn,
+.text-signal-cyan {
+  color: #d4af37 !important;
+}
+
+.text-signal-bad {
+  color: #a3a3a3 !important;
+}
